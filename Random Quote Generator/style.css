@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*Nav Bar */
+.openNav, .closeNav {
+    display: none;
+}
+
+nav {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: black;
+}
+
+nav a:hover {
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+
+
+/* Nav Bar End */
+
+.container {
+    width: 80%;
+    border: 3px solid black;
+    margin: auto;
+    height: 100vh;
+    padding: 5px;
+    text-align: center;
+    background-image: url(zen.jpg);
+    background-size: 100% 100%;
+}
+
+hr {
+    width: 350px;
+    margin: 10px auto;
+}
+
+button {
+    margin: 10px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+#quoteDisplay {
+    width: 50%;
+    font-size: 40px;
+    color: white;
+    margin: 100px 100px;
+}

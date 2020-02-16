@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+.openNav, .closeNav {
+    display: none;
+}
+
+nav {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+nav a:hover {
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+
+hr {
+    border: 1px solid red;
+    box-shadow: 0 1px 7px gray;
+    margin-bottom: 2%;
+}
+
+/* IMAGES */
+
+.all-images {
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+
+.all-images h1 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.random-image {
+    width: 250px;
+    margin: 10px;
+
+}
+
+.random-image:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 20px rgb(255, 251, 0);
+}
+
+.quotePage {
+    margin: 50px;
+}
+
+.quotePage button a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+}
